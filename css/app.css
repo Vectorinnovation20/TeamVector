@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url("./css/home.css");
-@import url("./css/about.css");
-@import url("./css/imageslide.css");
-@import url("./css/navbar2.css");
-@import url("./css/cars.css");
-@import url("./css/cars-update.css");
-@import url("./css/sponsors.css");
-@import url("./css/sponsor-updates.css");
-@import url("./css/contact.css");
+@import url("./home.css");
+@import url("./about.css");
+@import url("./imageslide.css");
+@import url("./navbar2.css");
+@import url("./cars.css");
+@import url("./cars-update.css");
+@import url("./sponsors.css");
+@import url("./sponsor-updates.css");
+@import url("./contact.css");
 
 *{
     padding: 0;
