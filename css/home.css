@@ -1,0 +1,44 @@
+#home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    
+    /*background-image: url(https://velocitaracing.github.io/IMAGES/HOME/Asset%204.webp);*/
+    /*background-image: linear-gradient(to right,limegreen,turquoise);*/
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /*background-image:linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);*/
+    /*background-image: linear-gradient( 109.6deg,#16222A,#3A6073);*/
+    
+    /*background-image:-webkit-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);background-image:-o-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);background-image:linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);}*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;  
+    /* background-size: auto; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.head{
+    height: 100vh;
+}
+.box-1{
+    left: 50px;
+    top: 100px;
+    position: absolute;
+    z-index: 10;
+    font-weight: 700;
+    
+}
+
+@media screen and (max-width: 550px){
+    #home{
+        background-image: url(../IMAGES/HOME/Asset\ 2.webp);
+    }
+}
