@@ -263,7 +263,7 @@
         
         
   /*background-image: linear-gradient(to right, #ff5f6d, #ffc371);*/
-  background-image: url(/images/navbar4.jpg);
+  background-image: url(../images/navbar4.jpg);
   
         flex-direction: column;
         align-items: center;
