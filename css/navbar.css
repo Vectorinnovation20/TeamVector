@@ -26,9 +26,9 @@
 
 .dropbtn {
     background-color:rgba(0, 0, 0, 0);
-    color: #f1f1f1;
+    color: white;
     padding: 16px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -92,7 +92,6 @@
     height: 80px;
     display: block;
     z-index: 11;
-    width: auto;
 }
 .white-logo-VR{
     height: 80px;
@@ -117,7 +116,7 @@
 .logo-txt {
     padding: 0 20px;
     text-decoration: none;
-    color: #f1f1f1;
+    color: black;
 
 }
 
@@ -201,7 +200,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 255, 255);
 }
 
 .burger{
@@ -213,7 +212,7 @@
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -248,7 +247,7 @@
       
     }
     .dropdown-content a {
-        color: #f1f1f1;
+        color: black;
         padding: 10px 0;
         text-decoration: none;
         display: block;
@@ -351,7 +350,6 @@
 @media screen and (max-width:430px){
 .navbar{
     height: 10vh;
-    background-color: black;
 }
 }
 
@@ -362,7 +360,7 @@
 @media screen and (max-width:325px){
     .logo-txt p{
         padding: 0 4px;
-        font-size: 0px;
+        font-size: 9px;
     
     }
 }

@@ -24,11 +24,13 @@
 .dropbtn {
     background-color:rgba(0, 0, 0, 0);
     color: white;
+    
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;;
 }
   
 .dropdown {
@@ -39,7 +41,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: whitesmoke;
+    background-color: #f1f1f1;
     min-width: 160px;
     padding: 15px 0;
     font-size: large;
@@ -58,10 +60,9 @@
   
 .dropdown:hover .dropdown-content {display: block;}
 
-
-
-
-
+.navbar-active{
+    color: yellow!important;
+}
 
 
 .logo a{
@@ -103,7 +104,7 @@
 .logo-txt {
     padding: 0 20px;
     text-decoration: none;
-    color: white;
+    color: black;  /*logo text*/
 
 }
 
@@ -167,7 +168,8 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .burger{
@@ -179,7 +181,7 @@
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: gray;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -187,7 +189,8 @@
 @media screen and (max-width:1196px){
     .navbar ul li a{
         
-    font-size: 14px;
+    font-size: 20px;
+    
     }
     .navbar ul li{
         padding: 10px 5;
@@ -257,13 +260,15 @@
         top: 0vh;
         display: flex;
         justify-content: center;
-        background-color:black;
+        
+        
+  /*background-image: linear-gradient(to right, #ff5f6d, #ffc371);*/
+  background-image: url(/images/navbar4.jpg);
+  
         flex-direction: column;
         align-items: center;
         width: 50%;
         transition: transform 0.5s ease-in;
-        background-color: #fff !important;
-    transition: background-color 200ms linear;
     }
 
     .nav-links{
