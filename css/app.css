@@ -11,54 +11,54 @@
 @import url("./social.css");
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
 }
 
 body{
-    font-family: 'Montserrat', sans-serif; 
-    /* overflow-x: hidden!important; */
-    overflow:scroll;
+  font-family: 'Montserrat', sans-serif; 
+  /* overflow-x: hidden!important; */
+  overflow:auto;
 
 
-      -webkit-user-select: none;
-         -moz-user-select: -moz-none;
-          -ms-user-select: none;
-              user-select: none;
-  
-  }
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
 
 .container{
-    max-width: 1920px;
-    margin: 0 auto;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 
 #preloader {
 
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /*change if the mask should have another color then white */
-    z-index:9999;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /*change if the mask should have another color then white */
+  z-index:9999;
 }
 
 #status {
- 
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    background-image:url(); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: cover;
-    margin:-100px 0 0 -100px;
+
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  background-image:url(../IMAGES/LOADER/100.webp); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  margin:-100px 0 0 -100px;
 }
 
 
@@ -67,94 +67,64 @@ body{
 
 
 @keyframes fade-in-left {
-    0%      { transform: translate(-25%,0); opacity:0; }
-    100%    { transform: translate(0,0);   opacity:1; }
-  }
-  .transitionSlideIn {
-    opacity: 1;
-    animation: fade-in-left 1s 1;
-  }
+  0%      { transform: translate(-25%,0); opacity:0; }
+  100%    { transform: translate(0,0);   opacity:1; }
+}
+.transitionSlideIn {
+  opacity: 1;
+  animation: fade-in-left 1s 1;
+}
 
 
-  @keyframes fade-in-right {
-    0%      { transform: translate(25%,0); opacity:0; }
-    100%    { transform: translate(0,0);   opacity:1; }
-  }
-  .transitionSlideInright {
-    opacity: 1;
-    animation: fade-in-right 1s 1;
-  }
+@keyframes fade-in-right {
+  0%      { transform: translate(25%,0); opacity:0; }
+  100%    { transform: translate(0,0);   opacity:1; }
+}
+.transitionSlideInright {
+  opacity: 1;
+  animation: fade-in-right 1s 1;
+}
 
-  @keyframes fade-in-bottom {
-    0%      { transform: translate(0,25%); opacity:0; }
-    100%    { transform: translate(0,0);   opacity:1; }
-  }
-  .transitionSlideInbottom {
-    opacity: 1;
-    animation: fade-in-bottom 1s 1;
-  }
+@keyframes fade-in-bottom {
+  0%      { transform: translate(0,25%); opacity:0; }
+  100%    { transform: translate(0,0);   opacity:1; }
+}
+.transitionSlideInbottom {
+  opacity: 1;
+  animation: fade-in-bottom 1s 1;
+}
 
 
-  @keyframes ripple { 
-    from { 
-        opacity: 1; 
-        transform: scale(0); 
-    } 
+@keyframes ripple { 
+  from { 
+      opacity: 1; 
+      transform: scale(0); 
+  } 
 
-    to { 
-        opacity: 0; 
-        transform: scale(10); 
-    } 
+  to { 
+      opacity: 0; 
+      transform: scale(10); 
+  } 
 } 
 
 
 
 .ripple {
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-  transform: scale(0);
-  position: absolute;
-  opacity: 1;
+width: 0;
+height: 0;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.4);
+transform: scale(0);
+position: absolute;
+opacity: 1;
 }
 .rippleEffect {
-    animation: rippleDrop .6s linear;
+  animation: rippleDrop .6s linear;
 }
 
 @keyframes rippleDrop {
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
+100% {
+  transform: scale(2);
+  opacity: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
