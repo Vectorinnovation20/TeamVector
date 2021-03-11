@@ -25,21 +25,18 @@
 }
 .box-1{
     left: 0px;
-    top: 200px;
+    top: 0px;
     position: absolute;
     z-index: 10;
     font-weight: 700;
     right: 0px;
 }
 
-#myvideo{
-    background-position: left;
-    top: 10vh;
-    display:flex;
-    width:100%;
+#myVideo{
     
-    justify-self: flex-start;
-   
-    min-height: 100%;
+    display: flex;
+    position: relative;
+align-items: center;
+bottom:100px;
     
 }
