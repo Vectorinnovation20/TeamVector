@@ -6,9 +6,9 @@
     color: #414a4c;
     
     top: 0;
-   
-    background-image: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
-  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+   background-color: black;
+   /* background-image: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);*/
     
     /*background-image: linear-gradient(to right,limegreen,turquoise);*/
     /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
