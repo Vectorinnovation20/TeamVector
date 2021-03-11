@@ -33,10 +33,11 @@
 }
 
 #myVideo{
+    justify-content: center ;
+    height: 50%;
     
-    display: flex;
     position: relative;
 align-items: center;
-bottom:100px;
+bottom:160px;
     
 }
