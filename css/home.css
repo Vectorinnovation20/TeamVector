@@ -34,8 +34,10 @@
 
 #myVideo{
     justify-content: center ;
-    height: 50%;
-    
+    height: auto;
+    width: 100%;
+    top: 0px;
+    bottom: 10px;
     position: relative;
 align-items: center;
 bottom:160px;
