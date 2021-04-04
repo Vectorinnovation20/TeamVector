@@ -5,11 +5,12 @@
     justify-content: center;
     text-align: center;
     top: 0;
+
     /* background-image: url(../IMAGES/aboutback.svg);  */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    min-height: 700px;
+    min-height: 800px;
     overflow-x: hidden;
 }
 
